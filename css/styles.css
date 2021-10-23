@@ -1,0 +1,129 @@
+:root {
+    --veryPaleBlue: hsl(225, 100%, 98%);
+    --desaturatedBlue: hsl(224, 23%, 55%);
+    --darkBlue: hsl(223, 47%, 23%);
+    --hoverBlue: #ab9cff;
+    --paleBlue: hsl(225, 100%, 94%);
+    --brightBlue: hsl(245, 75%, 52%);
+}
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background: no-repeat top/100% url("C:\\\!git\\frontendmentor\\order-summary-component-main\\images\\pattern-background-desktop.svg");
+    background-color: var(--paleBlue);
+}
+.flex-container {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+h1 {
+    font-weight: 900;
+    margin: 20px auto;
+}
+.card-body {
+    border: none;
+    margin: auto;
+    width: 450px;
+    text-align: center;
+    border-radius: 20px;
+}
+.card-body-img {
+    border: none;
+    border-radius: 20px 20px 0 0;
+    position:relative;
+    height: 220px;
+    width: 450px;
+    background: no-repeat center/100% url("file:///C:\\\!git\\frontendmentor\\order-summary-component-main\\images\\illustration-hero.svg");
+}
+.card-body-content {
+    padding: 20px 55px 55px 55px;
+    line-height: 1.5;
+    background-color: white;
+    width: 340px;
+    border-radius: 0 0 20px 20px;
+}
+.plan-body {
+    display: grid;
+    margin: auto;
+    padding: 20px;
+    background-color: var(--veryPaleBlue);
+    border-radius: 10px;
+}
+.plan-img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.plan-header {
+    font-size: 16px;
+    font-weight: 900;
+    text-align: left;
+    margin: 0 68px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.plan-cost {
+    color: var(--desaturatedBlue);
+    text-align: left;
+    margin: 0 68px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.plan-change {
+    color: var(--desaturatedBlue);
+    font-size: 14px;
+    font-weight: 700;
+    margin: auto;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.plan-change:hover {
+    color: var(--hoverBlue);
+    text-decoration: none;
+}
+.msg {
+    color: var(--desaturatedBlue);
+    margin: 20px 10px 30px 10px;
+}
+.btn-proceed {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 30px 0;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    box-shadow: 0px 18px 30px var(--paleBlue);
+    border-radius: 10px;
+    color: white;
+    background: var(--brightBlue);
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn-proceed:hover {
+    background: var(--hoverBlue);
+    text-decoration: none;
+}
+.btn-cancel {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--desaturatedBlue);
+    text-decoration: none;
+}
+.btn-cancel:hover {
+    color: black;
+}
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
