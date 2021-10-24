@@ -23,7 +23,7 @@ Users should be able to:
 ![](./screenshot.png)
 
 ### Links
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Order Summary Card](https://wilsonept.github.io/frontendmentor-order-summary-card/)
 
 ## My process
 
@@ -82,6 +82,7 @@ I've gotten to know *flex* and *grid* systems and also *svg* format.
     grid-row-start: 1;
     grid-row-end: 3;
 }
+```
 
 ### Continued development
 Technics that I've used needed to improve:

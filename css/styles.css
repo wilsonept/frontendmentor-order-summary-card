@@ -8,7 +8,7 @@
 }
 body {
     font-family: 'Red Hat Display', sans-serif;
-    background: no-repeat top/100% url("C:\\\!git\\frontendmentor\\order-summary-component-main\\images\\pattern-background-desktop.svg");
+    background: no-repeat top/100% url("..\\images\\pattern-background-desktop.svg");
     background-color: var(--paleBlue);
 }
 .flex-container {
@@ -28,12 +28,9 @@ h1 {
     border-radius: 20px;
 }
 .card-body-img {
-    border: none;
     border-radius: 20px 20px 0 0;
-    position:relative;
+    background: no-repeat top/100% url("..\\images\\illustration-hero.svg");
     height: 220px;
-    width: 450px;
-    background: no-repeat center/100% url("file:///C:\\\!git\\frontendmentor\\order-summary-component-main\\images\\illustration-hero.svg");
 }
 .card-body-content {
     padding: 20px 55px 55px 55px;
